@@ -1,0 +1,36 @@
+@import "tailwindcss";
+*{
+  gap: 0.5vh;
+  margin: 0;
+  box-sizing: border-box;
+}
+#root{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.p-menubar .p-menuitem-link{
+  display: flex;
+  align-items: center;
+  gap: 0.5rem; 
+}
+
+.p-menubar .p-menuitem-icon {
+  font-size: 1.2rem;
+}
+
+.p-menu{
+  display: flex;
+  flex-direction: column;
+
+}
+.p-menu .p-menuitem-link{
+  gap: 1vh !important;
+}
+
+.p-button{
+  gap: 0.5vh;
+}
