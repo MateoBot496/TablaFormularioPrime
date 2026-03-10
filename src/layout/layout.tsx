@@ -11,7 +11,7 @@ export default function DefaultLayout({ children }: Props) {
     
     <BrowserRouter>
 
-        <div className="w-full bg-gv min-h-screen flex flex-col">
+        <div className="w-full h-full flex flex-col bg-gv justify-center items-center">
             <Navbar />
             
             {children}

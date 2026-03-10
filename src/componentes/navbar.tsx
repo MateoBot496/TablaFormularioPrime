@@ -92,7 +92,7 @@ export default function Navbar() {
   );
 
   return (
-    <div className="shadow-md flex justify-center items-center bg-gray-50 px-5">
+    <div className="shadow-md flex justify-center items-center bg-gray-50 px-5 w-full">
       <Menubar
         model={items}
         start={start}

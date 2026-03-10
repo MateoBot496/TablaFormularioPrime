@@ -59,7 +59,7 @@ export default function Formulario() {
 
 
   return (
-    <div className="flex justify-center items-center md:max-w-7xl w-full">
+    <div className="flex justify-center items-center md:max-w-7xl w-full ">
       <form className="flex flex-col !gap-7 p-4 rounded-xl 
         bg-gray-300 w-full md:max-w-7xl" onSubmit={(e) => handleSubmit(e)}>
         
