@@ -11,7 +11,9 @@ import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <PrimeReactProvider>
+    <PrimeReactProvider 
+    //value={{ unstyled: true}}
+    >
       
       <App />
     

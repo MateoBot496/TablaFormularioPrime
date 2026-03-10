@@ -34,3 +34,25 @@
 .p-button{
   gap: 0.5vh;
 }
+
+.p-inputtext{
+  border: 1px solid black
+}
+
+.text-gradient {
+  color: #8160BD;
+  background-image: linear-gradient(45deg, #8160BD 30%, #3C4EB5 58%, #8DC8F0 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.button-gradient {
+  background: linear-gradient(45deg, #8160BD 30%, #3C4EB5 58%, #8DC8F0 100%);
+  color: white; 
+  font-weight: bold;
+}
+
+.bg-gv { 
+  background: linear-gradient(rgb(245, 243, 255) 50%, white 100%);
+}
